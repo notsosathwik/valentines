@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-bg: linear-gradient(to top,#010329,#000005);
+    --color-glass:linear-gradient(to left,#142544,#1a9092);
+    --color-water:linear-gradient(to left,#142544,#1b6d6e);
+}
+
+body{
+    background-color: #FFF5E4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; /* Change the direction to column */
+    align-items: center;
+    justify-content: flex-start; /* Align items to the start of the container */
+    overflow: hidden;
+	color: #FF9494;
+	font-family: courier;
+}
+
+#thankyou {
+    width: 100%; /* Ensure it spans the full width */
+    text-align: center; /* Keep the text centered */
+    margin-top: 20px; /* Add some space at the top */
+    z-index: 1000; /* Ensure it's above other elements if needed */
+    position: relative; /* Adjust based on layout needs */
+	margin-bottom: 400px;
+	font-size: 50px;
+}
+
+
+.button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 10px;
+  font-family: "courier";
+  margin-bottom: 20px;
+  background-color: #ffe3e1;
+  color: #e67373;
+  border-radius: 12px;
+  border: 2px solid #ffe3e1;
+}
+
+.button:hover{
+  background-color: #bd575e;
+  color: #ffe3e1
+}
